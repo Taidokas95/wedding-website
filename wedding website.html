@@ -7,15 +7,23 @@
 <body>
     <div class="navbar">
         <nav>
-
+            <button onclick="scrollToVenue()">Venue</button>
+            <button onclick="scrollToHotel()">Hotel</button>
+            <button onclick="scrollToTravel()">Travel</button>
+            <button onclick="scrollToTourism()">To do in Stockholm</button>
+            <button onclick="scrollToGiftList()">Gift List</button>
+            <button onclick="scrollToContactInfo()">Contact Info</button>
         </nav>
     </div>
     <div class="header">
         <h1>Save the date!</h1>
         <h2>26/06/2021</h2>
         <h3>Anthony & Hannah</h3>
+        <div class="countDown">
+            <p>id="countdownDate"</p>
+        </div>
     </div>
-        <section class="venue">
+        <section class="venue" id="venue">
             <div class="left-half">
                 <p>Venue</p>
             </div>
@@ -23,7 +31,7 @@
                 <p>venue img and link button</p>
             </div>
         </section>
-        <section class="hotel">
+        <section class="hotel" id="hotel">
             <div class="left-half">
                 <p>Hotel img and link button</p>
             </div>
@@ -31,7 +39,7 @@
                 <p>Hotel</p>
             </div>
         </section>
-        <section class="travel">
+        <section class="travel" id="travel">
             <div class="left-half">
                 <p>Travel</p>
             </div>
@@ -39,7 +47,7 @@
                 <p>Travel img and link button</p>
             </div>
         </section>
-        <section class="tourism">
+        <section class="tourism" id="tourism">
             <div class="left-half">
                 <p>img and link button</p>
             </div>
@@ -47,14 +55,12 @@
                 <p>To do in Stockholm</p>
             </div>
         </section>
-    <div>
+    <div class="giftList" id="giftList">
         <p>Gift list</p>
     </div>
-    <div class="countDown">
-        <p>id="countdownDate"</p>
-    </div>
-    <div class="contactInfo">
+    <div class="contactInfo" id="contactInfo">
         <p>Contact Info</p>
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 </html>
