@@ -1,6 +1,6 @@
 html, body, section {
     height: 100%;
-    background-color: ivory;
+    background-color: (#F8EDDE);
 }
 div {
     display: flex;
@@ -23,7 +23,6 @@ div {
     flex: 1;
     padding: 1rem;
   }
-  
   .right-half {
     flex: 1;
     padding: 1rem;
@@ -36,8 +35,8 @@ div {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
+    background-color: (#FAFBF8); /* Set a background color */
+    color: (#050D43); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -45,5 +44,19 @@ div {
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: (#E5C1BD); /* Add a dark-grey background on hover */
   }
+
+  /* RGB */
+$color1: rgba(5, 13, 67, 1); /* midnight blue */
+$color2: rgba(181, 191, 161, 1); /* laurel green */
+$color3: rgba(229, 193, 189, 1); /* baby pink */
+$color4: rgba(248, 237, 222, 1); /* linen */
+$color5: rgba(250, 251, 248, 1); /* baby powder */
+
+/* HEX */
+$color1: #050d43ff; /* midnight blue */
+$color2: #b5bfa1ff; /* laurel green */
+$color3: #e5c1bdff; /* baby pink */
+$color4: #f8eddeff; /* linen */
+$color5: #fafbf8ff; /* baby powder */
