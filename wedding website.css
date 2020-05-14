@@ -1,12 +1,13 @@
 html, body, section {
+    display: flex;
     height: 100%;
-    background-color: (#F8EDDE);
+    background-color: rgba(250, 251, 248, 1);
 }
 div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 .venue {
     display: flex;
 }
@@ -19,14 +20,44 @@ div {
 .tourism {
     display: flex;
 }
-.left-half {
+.venue-left-half {
     flex: 1;
     padding: 1rem;
-  }
-  .right-half {
+    background-color: rgba(215, 179, 168, 1);
+}
+.venue-right-half {
     flex: 1;
     padding: 1rem;
-  }
+    background-color: rgba(203, 133, 137, 1);
+}
+.hotel-left-half {
+    flex: 1;
+    padding: 1rem;
+    background-color: rgba(219, 178, 60, 1);
+}
+.hotel-right-half {
+    flex: 1;
+    padding: 1rem;
+    background-color: rgba(240, 207, 161, 1);
+}
+.travel-left-half {
+    flex: 1;
+    padding: 1rem;
+    background-color: rgba(188, 197, 168, 1);
+}
+.travel-right-half {
+    flex: 1;
+    padding: 1rem;
+    background-color: rgba(36, 89, 44, 1);
+}
+.tourism-left-half {
+    flex: 1;
+    padding: 1rem;
+}
+.tourism-right-half {
+    flex: 1;
+    padding: 1rem;
+}
   #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -44,19 +75,29 @@ div {
   }
   
   #myBtn:hover {
-    background-color: (#E5C1BD); /* Add a dark-grey background on hover */
+    background-color:rgba(215, 179, 168, 1);
   }
 
-  /* RGB */
-$color1: rgba(5, 13, 67, 1); /* midnight blue */
-$color2: rgba(181, 191, 161, 1); /* laurel green */
-$color3: rgba(229, 193, 189, 1); /* baby pink */
-$color4: rgba(248, 237, 222, 1); /* linen */
-$color5: rgba(250, 251, 248, 1); /* baby powder */
+/* RGB 
+color1: rgba(31, 17, 16, 1); xiketic 
+color2: rgba(4, 36, 63, 1); oxford blue
+color3: rgba(36, 89, 44, 1); hunter green
+color4: rgba(188, 197, 168, 1); laurel green
+color5: rgba(203, 133, 137, 1); old rose
+color6: rgba(215, 179, 168, 1); silver pink
+color7: rgba(219, 178, 60, 1); gold
+color8: rgba(240, 207, 161, 1); deep champagne
+color9: rgba(248, 237, 222, 1); linen
+color10: rgba(250, 251, 248, 1); baby powder */
 
-/* HEX */
-$color1: #050d43ff; /* midnight blue */
-$color2: #b5bfa1ff; /* laurel green */
-$color3: #e5c1bdff; /* baby pink */
-$color4: #f8eddeff; /* linen */
-$color5: #fafbf8ff; /* baby powder */
+/* HEX
+color1: #1f1110ff; xiketic 
+color2: #04243fff; oxford blue
+color3: #24592cff; hunter green
+color4: #bcc5a8ff; laurel green
+color5: #cb8589ff; old rose
+color6: #d7b3a8ff; silver pink
+color7: #dbb23cff; gold
+color8: #f0cfa1ff; deep champagne
+color9: #f8eddeff; linen
+color10: #fafbf8ff; baby powder */
