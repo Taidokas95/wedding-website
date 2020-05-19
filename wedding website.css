@@ -1,6 +1,9 @@
-html, body, section {
+body {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     height: 100%;
+    width: 100%;
     background-color: rgba(250, 251, 248, 1);
 }
 div {
@@ -8,55 +11,50 @@ div {
     flex-direction: column;
     justify-content: center;
 }
-.venue {
-    display: flex;
-}
-.hotel {
-    display: flex;
-}
-.travel {
-    display: flex;
-}
-.tourism {
-    display: flex;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
 }
 .venue-left-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 1;
+    grid-row: 1;
     background-color: rgba(215, 179, 168, 1);
 }
 .venue-right-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 2;
+    grid-row: 1;
     background-color: rgba(203, 133, 137, 1);
 }
 .hotel-left-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 1;
+    grid-row: 2;
     background-color: rgba(219, 178, 60, 1);
 }
 .hotel-right-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 2;
+    grid-row: 2;
     background-color: rgba(240, 207, 161, 1);
 }
 .travel-left-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 1;
+    grid-row: 3;
     background-color: rgba(188, 197, 168, 1);
 }
 .travel-right-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 2;
+    grid-row: 3;
     background-color: rgba(36, 89, 44, 1);
 }
 .tourism-left-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 1;
+    grid-row: 4;
 }
 .tourism-right-half {
-    flex: 1;
-    padding: 1rem;
+    grid-column: 2;
+    grid-row: 4;
 }
   #myBtn {
     display: none; /* Hidden by default */
