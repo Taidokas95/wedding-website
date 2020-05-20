@@ -1,6 +1,6 @@
 body {
-    height: 100%;
-    width: 100%;
+    height: 1vh;
+    width: auto;
     background-color: rgba(250, 251, 248, 1);
 }
 .navbar {
@@ -29,42 +29,66 @@ h3 {
     align-items: stretch;
 }
 .venue-left-half {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 10px;
     background-color: rgba(215, 179, 168, 1);
 }
 .venue-right-half {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 10px;
     background-color: rgba(203, 133, 137, 1);
 }
 .hotel-left-half {
-    grid-column: 1;
-    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 10px;
     background-color: rgba(219, 178, 60, 1);
 }
 .hotel-right-half {
-    grid-column: 2;
-    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 10px;
     background-color: rgba(240, 207, 161, 1);
 }
 .travel-left-half {
-    grid-column: 1;
-    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 10px;
     background-color: rgba(188, 197, 168, 1);
 }
 .travel-right-half {
-    grid-column: 2;
-    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 10px;
     background-color: rgba(36, 89, 44, 1);
 }
 .tourism-left-half {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding: 10px;
 }
 .tourism-right-half {
-    grid-column: 2;
-    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding: 10px;
 }
   #myBtn {
     display: none; /* Hidden by default */
