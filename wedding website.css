@@ -1,15 +1,25 @@
 body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     height: 100%;
     width: 100%;
     background-color: rgba(250, 251, 248, 1);
 }
-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.navbar {
+    display: inline;
+    background-image: linear-gradient(right, rgba(248, 237, 222, 1), rgba(215, 179, 168, 1));
+    padding: 10px;
+}
+button {
+    padding: 5px;
+    background-color: rgba(250, 251, 248, 0);
+    border: none;
+    text-align: center;
+    color: rgba(31, 17, 16, 1);
+    font: 'Fredericka the Great';
+    font-size: 20px;
+}
+h3 {
+    font: 'Monsieur La Doulaise';
+    font-size: 95px;
 }
 .container {
     display: grid;
