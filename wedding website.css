@@ -3,12 +3,12 @@ body {
     width: auto;
     background-color: rgba(250, 251, 248, 1);
 }
-.navbar {
+div .navbar {
     display: inline;
     background-image: linear-gradient(right, rgba(248, 237, 222, 1), rgba(215, 179, 168, 1));
     padding: 10px;
 }
-button {
+.navbutton {
     padding: 5px;
     background-color: rgba(250, 251, 248, 0);
     border: none;
@@ -17,16 +17,25 @@ button {
     font: 'Fredericka the Great';
     font-size: 20px;
 }
-h3 {
+div.header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+h1 {
     font: 'Monsieur La Doulaise';
     font-size: 95px;
 }
-.container {
+h2 {
+    font: 'Libre Baskerville', serif;
+    font-size: 60px;
+}
+div.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
+    justify-content: stretch;
+    align-content: stretch;
 }
 .venue-left-half {
     grid-column-start: 1;
@@ -89,6 +98,14 @@ h3 {
     grid-row-start: 4;
     grid-row-end: 5;
     padding: 10px;
+}
+div.contactInfo {
+    display: flex;
+    padding: 20px;
+    font: 'KoHo';
+    font-size: 2em;
+    align-content: center;
+    justify-content: center;
 }
   #myBtn {
     display: none; /* Hidden by default */

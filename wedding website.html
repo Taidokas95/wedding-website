@@ -2,53 +2,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="weddingwebsite.css">
+    <link rel="stylesheet" href="wedding website.css">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,700;1,300;1,700&family=Courgette&family=Fredericka+the+Great&family=KoHo:ital,wght@0,400;0,600;1,400;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
     <title>Anthony's and Hannah's wedding</title>
 </head>
 <body>
     <div class="navbar">
         <nav>
-            <button onclick="scrollToVenue()">Venue</button>
-            <button onclick="scrollToHotel()">Hotel</button>
-            <button onclick="scrollToTravel()">Travel</button>
-            <button onclick="scrollToTourism()">To do in Stockholm</button>
-            <button onclick="scrollToGiftList()">Gift List</button>
-            <button onclick="scrollToContactInfo()">Contact Info</button>
+            <button class="navbutton" onclick="scrollToVenue()">Venue</button>
+            <button class="navbutton" onclick="scrollToHotel()">Hotel</button>
+            <button class="navbutton" onclick="scrollToTravel()">Travel</button>
+            <button class="navbutton" onclick="scrollToTourism()">To do in Stockholm</button>
+            <button class="navbutton" onclick="scrollToGiftList()">Gift List</button>
+            <button class="navbutton" onclick="scrollToContactInfo()">Contact Info</button>
         </nav>
     </div>
     <div class="header">
         <h1>Save the date!</h1>
         <h2>26/06/2021</h2>
-        <h3>Anthony & Hannah</h3>
+        <h1>Anthony & Hannah</h1>
+    </div>
+    <div class="schedule">
+            <h3>Friday</h3>
+            <p>...</p>
+            <h3>Saturday</h3>
+            <p>...</p>
+            <h3>Sunday</h3>
+            <p>...</p>
     </div>
     <div class="container">
-        <div class="venue-left-half">
+        <div class="venue-left-half" class="venue-text">
             <h1>Venue</h1><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestias fuga rerum eligendi harum beatae recusandae impedit iste reprehenderit id voluptatibus minus nesciunt, alias ea doloremque explicabo praesentium distinctio pariatur.</p>
         </div>
-        <div class="venue-right-half">
+        <div class="venue-right-half" class="venue-pic">
             <button class="linkButton" onclick="window.location.href = 'https://siggestagard.se/fest-brollop/';">The venue</button>
         </div><br>
-        <div class="hotel-left-half">
+        <div class="hotel-left-half" class="hotel-pic">
             <button class="linkButton" onclick="window.location.href = 'https://siggestagard.se/en/accomodation/';">Book accomodation</button>
         </div>
-        <div class="hotel-right-half">
+        <div class="hotel-right-half" class="hotel-text">
             <h1>Hotel</h1><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, deserunt illo. Tenetur obcaecati nam at explicabo aperiam repellendus consequatur, doloremque in tempore ab dolore accusantium laboriosam illum reprehenderit totam ipsam.</p>
         </div><br>
-        <div class="travel-left-half">
+        <div class="travel-left-half" class="travel-text">
             <h1>Travel</h1><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error explicabo, facere reprehenderit possimus eligendi nobis nulla voluptates ut porro voluptatem cum, eaque beatae, perspiciatis facilis rem labore sapiente quis?</p>
         </div>
-        <div class="travel-right-half">
+        <div class="travel-right-half" class="travel-pic">
             <button class="linkButton" onclick="window.location.href = 'https://sl.se/en/';">Public transport</button>
             <button class="linkButton" onclick="window.location.href = 'https://www.arlandaexpress.com/?lang';">Arlanda Express</button>
         </div><br>
-        <div class="tourism-left-half">
+        <div class="tourism-left-half" class="tourism-pic">
             <button class="linkButton" onclick="window.location.href = 'https://www.visitstockholm.com/';">What to do in Stockholm</button>
         </div>
-        <div class="tourism-right-half">
+        <div class="tourism-right-half" class="tourism-text">
             <h1>To do in Stockholm</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit inventore doloribus sapiente, distinctio tenetur facere libero animi quam veritatis, ullam ut facilis laborum est eveniet ducimus soluta voluptatibus impedit laudantium?</p>
         </div><br>
