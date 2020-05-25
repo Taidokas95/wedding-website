@@ -3,32 +3,58 @@ body {
     width: auto;
     background-color: rgba(250, 251, 248, 1);
 }
-div .navbar {
-    display: inline;
-    background-image: linear-gradient(right, rgba(248, 237, 222, 1), rgba(215, 179, 168, 1));
-    padding: 10px;
+h1 {
+    font-family: 'Monsieur La Doulaise';
+    font-size: 6em;
+    text-align: center;
 }
-.navbutton {
-    padding: 5px;
-    background-color: rgba(250, 251, 248, 0);
+h2 {
+    font-family: 'Averia Serif Libre';
+    font-size: 5empx;
+    text-align: center;
+}
+h3 {
+    font-family: 'Averia Serif Libre';
+    font-size: 4empx;
+}
+h4 {
+    font-family: 'Averia Serif Libre';
+    font-size: 3em;
+}
+div.navbar {
+    display: grid;
+    grid: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    column-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+button.navbutton {
+    padding: 10px;
+    margin: 2em;
+    background-color: #FAFBF8;
     border: none;
     text-align: center;
     color: rgba(31, 17, 16, 1);
-    font: 'Fredericka the Great';
+    font-family: 'Fredericka the Great';
     font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+button.navbutton:hover {
+    background: rgba(215, 179, 168, 1);
+    border: 2px;
+    border-style: dashed;
+    border-color: #050D43;
 }
 div.header {
-    display: flex;
     align-content: center;
     justify-content: center;
+    border: 2px;
+    border-color: #050D43;
+    margin: 50px, 25px, 50px, 25px;
 }
-h1 {
-    font: 'Monsieur La Doulaise';
-    font-size: 95px;
-}
-h2 {
-    font: 'Libre Baskerville', serif;
-    font-size: 60px;
+div.schedule {
+    text-align: center;
 }
 div.container {
     display: grid;
@@ -42,6 +68,7 @@ div.container {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    min-height: 3em;
     padding: 10px;
     background-color: rgba(215, 179, 168, 1);
 }
@@ -50,6 +77,7 @@ div.container {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    min-height: 3em;
     padding: 10px;
     background-color: rgba(203, 133, 137, 1);
 }
@@ -99,10 +127,25 @@ div.container {
     grid-row-end: 5;
     padding: 10px;
 }
+button {
+    padding: 10px;
+    border: 1,5px;
+    border-style: dashed;
+    border-color: #050D43;
+    text-align: center;
+    color: rgba(31, 17, 16, 1);
+    font-family: 'Fredericka the Great';
+    font-size: 20px;
+    cursor: pointer;
+}
+div.giftList {
+    align-content: center;
+    justify-content: center;
+}
 div.contactInfo {
     display: flex;
     padding: 20px;
-    font: 'KoHo';
+    font-family: 'KoHo', sans-serif;
     font-size: 2em;
     align-content: center;
     justify-content: center;
@@ -153,8 +196,6 @@ color10: #fafbf8ff; baby powder */
 
 /* Font styling
 font-family: 'Averia Serif Libre', cursive;
-font-family: 'Courgette', cursive;
 font-family: 'Fredericka the Great', cursive;
 font-family: 'KoHo', sans-serif;
-font-family: 'Libre Baskerville', serif;
 font-family: 'Monsieur La Doulaise', cursive; */
