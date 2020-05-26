@@ -41,13 +41,10 @@ button.navbutton {
     font-family: 'Fredericka the Great';
     font-size: 20px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 button.navbutton:hover {
-    background: rgba(215, 179, 168, 1);
-    border: 2px;
-    border-style: dashed;
-    border-color: #050D43;
+   color: rgba(203, 133, 137, 1);
 }
 div.header {
     align-content: center;
@@ -76,7 +73,7 @@ div.container {
 }
 div.container p {
     font-family: 'Averia Serif Libre';
-    font-weight: 1em;
+    font-weight: 1.5em;
 }
 .venue-left-half {
     grid-column-start: 1;
@@ -94,6 +91,7 @@ div.container p {
     grid-row-end: 2;
     min-height: 3em;
     padding: 50px;
+    background-image: url("pink geometric.jpg");
     text-align: center;
     vertical-align: middle;
 }
@@ -103,6 +101,7 @@ div.container p {
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 50px;
+    background-image: url("yellow mosaic.jpg");
     text-align: center;
     vertical-align: middle;
 }
@@ -112,7 +111,7 @@ div.container p {
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 50px;
-    background-color: rgba(36, 89, 44, 1);
+    background-color: rgba(240, 207, 161, 1);
 }
 .travel-left-half {
     grid-column-start: 1;
@@ -128,6 +127,7 @@ div.container p {
     grid-row-start: 3;
     grid-row-end: 4;
     padding: 50px;
+    background-image: url("Green lattice.jpg");
     text-align: center;
     vertical-align: middle;
 }
@@ -137,6 +137,7 @@ div.container p {
     grid-row-start: 4;
     grid-row-end: 5;
     padding: 50px;
+    background-image: url("pink arabic.jpg");
     text-align: center;
     vertical-align: middle;
 }
@@ -149,16 +150,20 @@ div.container p {
     background-color: rgba(203, 133, 137, 1);
 }
 button {
-    padding: 10px;
-    border: 1,5px;
-    border-style: dashed;
-    border-color: #050D43;
+    padding: 1.5em, 1.5em, 1.5em, 1.5em;
+    margin-top: 35%;
+    background-color: #FAFBF8;
+    border: none;
+    border-radius: 10px;
     text-align: center;
     color: rgba(31, 17, 16, 1);
     font-family: 'Fredericka the Great';
-    font-size: 20px;
+    font-size: 2em;
     cursor: pointer;
 }
+button:hover {
+    color: rgba(203, 133, 137, 1);
+ }
 div.giftList {
     font-family: 'Averia Serif Libre';
     font-size: 1em;
