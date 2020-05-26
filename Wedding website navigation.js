@@ -1,4 +1,10 @@
 //navigation
+var elmnt = document.getElementById("schedule");
+
+function scrollToSchedule() {
+  elmnt.scrollIntoView(true); 
+}
+
 var elmnt = document.getElementById("venue");
 
 function scrollToVenue() {
@@ -17,7 +23,7 @@ function scrollToTravel() {
   elmnt.scrollIntoView(true); 
 }
 
-var elmnt = document.getElementById("Tourism");
+var elmnt = document.getElementById("tourism");
 
 function scrollToTourism() {
   elmnt.scrollIntoView(true); 

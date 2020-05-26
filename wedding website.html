@@ -4,11 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@0;1&family=Fredericka+the+Great&family=KoHo:ital@0;1&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="wedding website.css">
-    <title>Anthony's and Hannah's wedding</title>
+    <title>Hannah's & Anthony's wedding</title>
 </head>
 <body>
     <div class="navbar">
         <nav>
+            <button class="navbutton" onclick="scrollToSchedula()">Schedule</button>
             <button class="navbutton" onclick="scrollToVenue()">Venue</button>
             <button class="navbutton" onclick="scrollToHotel()">Hotel</button>
             <button class="navbutton" onclick="scrollToTravel()">Travel</button>
@@ -20,32 +21,33 @@
     <div class="header">
         <h1>Save the date!</h1><br>
         <h2>26/06/2021</h2><br>
-        <h1>Anthony & Hannah</h1>
+        <h1>Hannah & Anthony</h1>
     </div>
-    <div class="schedule">
-            <h3>Friday</h3>
-            <p>...</p>
-            <h3>Saturday</h3>
-            <p>...</p>
-            <h3>Sunday</h3>
-            <p>...</p>
+    <div class="schedule" id="schedule">
+        <h1>Schedule</h1>
+        <h3>Friday</h3>
+        <p>...</p>
+        <h3>Saturday</h3>
+        <p>...</p>
+        <h3>Sunday</h3>
+        <p>...</p>
     </div>
     <div class="container">
-        <div class="venue-left-half" class="venue-text">
+        <div class="venue-left-half" class="venue-text" id="venue">
             <h4>Venue</h4><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestias fuga rerum eligendi harum beatae recusandae impedit iste reprehenderit id voluptatibus minus nesciunt, alias ea doloremque explicabo praesentium distinctio pariatur.</p>
         </div>
         <div class="venue-right-half" class="venue-pic">
             <button class="linkButton" onclick="window.location.href = 'https://siggestagard.se/fest-brollop/';">The venue</button>
         </div><br>
-        <div class="hotel-left-half" class="hotel-pic">
+        <div class="hotel-left-half" class="hotel-pic" id="hotel">
             <button class="linkButton" onclick="window.location.href = 'https://siggestagard.se/en/accomodation/';">Book accomodation</button>
         </div>
         <div class="hotel-right-half" class="hotel-text">
             <h4>Hotel</h4><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, deserunt illo. Tenetur obcaecati nam at explicabo aperiam repellendus consequatur, doloremque in tempore ab dolore accusantium laboriosam illum reprehenderit totam ipsam.</p>
         </div><br>
-        <div class="travel-left-half" class="travel-text">
+        <div class="travel-left-half" class="travel-text" id="travel">
             <h4>Travel</h4><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error explicabo, facere reprehenderit possimus eligendi nobis nulla voluptates ut porro voluptatem cum, eaque beatae, perspiciatis facilis rem labore sapiente quis?</p>
         </div>
@@ -53,7 +55,7 @@
             <button class="linkButton" onclick="window.location.href = 'https://sl.se/en/';">Public transport</button><br>
             <button class="linkButton" onclick="window.location.href = 'https://www.arlandaexpress.com/?lang';">Arlanda Express</button>
         </div><br>
-        <div class="tourism-left-half" class="tourism-pic">
+        <div class="tourism-left-half" class="tourism-pic" id="tourism">
             <button class="linkButton" onclick="window.location.href = 'https://www.visitstockholm.com/';">What to do in Stockholm</button>
         </div>
         <div class="tourism-right-half" class="tourism-text">
@@ -70,7 +72,10 @@
         </ul>
     </div>
     <div class="contactInfo" id="contactInfo">
-        <p>Contact Info</p>
+        <p class="title">Contact Info</p><br>
+        <p class="hk"><span>Hannah Kanjah</span><br>hannah.kanjah@gmail.com<br>+46707879746<br></p>
+        <p><span class="ab">Anthony Bassey</span><br>a.bassey@live.co.uk<br>+447866809014<br></p>
+        
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <script src="Wedding website navigation.js"></script>
