@@ -14,7 +14,7 @@
             <button class="navbutton" onclick="scrollToHotel()">Hotel</button>
             <button class="navbutton" onclick="scrollToTravel()">Travel</button>
             <button class="navbutton" onclick="scrollToTourism()">To do in Stockholm</button>
-            <button class="navbutton" onclick="scrollToGiftList()">Gift List</button>
+            <button class="navbutton" onclick="scrollToGiftList()">Gifts</button>
             <button class="navbutton" onclick="scrollToContactInfo()">Contact Info</button>
         </nav>
     </div>
@@ -37,7 +37,7 @@
             <h4>Venue</h4><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestias fuga rerum eligendi harum beatae recusandae impedit iste reprehenderit id voluptatibus minus nesciunt, alias ea doloremque explicabo praesentium distinctio pariatur.</p>
         </div>
-        <div class="venue-right-half" class="venue-pic">
+        <div class="venue-right-half" class="venue-pic" id="venue">
             <button class="linkButton" onclick="window.location.href = 'https://siggestagard.se/fest-brollop/';">The venue</button>
         </div><br>
         <div class="hotel-left-half" class="hotel-pic" id="hotel">
@@ -52,7 +52,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error explicabo, facere reprehenderit possimus eligendi nobis nulla voluptates ut porro voluptatem cum, eaque beatae, perspiciatis facilis rem labore sapiente quis?</p>
         </div>
         <div class="travel-right-half" class="travel-pic">
-            <button class="linkButton" onclick="window.location.href = 'https://sl.se/en/';">Public transport</button><br>
+            <button class="linkButton" onclick="window.location.href = 'https://sl.se/en/';">Public transport</button>
             <button class="linkButton" onclick="window.location.href = 'https://www.arlandaexpress.com/?lang';">Arlanda Express</button>
         </div><br>
         <div class="tourism-left-half" class="tourism-pic" id="tourism">
@@ -64,20 +64,21 @@
         </div><br>
     </div>
     <div class="giftList" id="giftList">
-        <h1>Gift List</h1>
-        <ul>
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
-        </ul>
+        <h1>Gifts</h1>
+            <p>If you would like to give us a gift on our special day we would especially appreciate donations towards our honeymoon trip. Anything to symbolise our love or help us in our life together is also much appreciated. But most of all we would love to enjoy your presence at our wedding.</p>
     </div>
     <div class="contactInfo" id="contactInfo">
-        <p class="title">Contact Info</p><br>
-        <p class="hk"><span>Hannah Kanjah</span><br>hannah.kanjah@gmail.com<br>+46707879746<br></p>
-        <p><span class="ab">Anthony Bassey</span><br>a.bassey@live.co.uk<br>+447866809014<br></p>
-        
+        <div class="title">
+            <p>Contact Info</p><br>
+        </div>
+        <div class="hk">
+            <p><span>Hannah Kanjah</span><br>hannah.kanjah@gmail.com<br>+46707879746<br></p>
+        </div>
+        <div class="ab">
+            <p><span>Anthony Bassey</span><br>a.bassey@live.co.uk<br>+447866809014<br></p>
+        </div>        
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button class="topButton" id="myBtn" onclick="topFunction()">Top</button>
     <script src="Wedding website navigation.js"></script>
 </body>
 </html>
