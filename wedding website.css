@@ -5,12 +5,13 @@ body {
 }
 h1 {
     font-family: 'Monsieur La Doulaise';
-    font-size: 6em;
+    font-size: 6.5em;
     text-align: center;
 }
 h2 {
     font-family: 'Averia Serif Libre';
-    font-size: 2em;
+    font-size: 2.75em;
+    font-weight: bold;
     text-align: center;
 }
 h3 {
@@ -19,7 +20,12 @@ h3 {
 }
 h4 {
     font-family: 'Averia Serif Libre';
-    font-size: 3em;
+    font-size: 3.25em;
+}
+h5 {
+    font-family: 'KoHo';
+    font-size: 2em;
+    font-weight: bold;
 }
 ul {
     justify-content: center;
@@ -49,15 +55,24 @@ button.navbutton:hover {
 div.header {
     align-content: center;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 150px;
-    margin-top: 50px;
-    margin-bottom: 300px;
+    margin-top: 25px;
+    margin-bottom: 250px;
+}
+div.img {
+    text-align: center;
+}
+img {
+    height: auto;
+    width: 550px;
+}
+div.bottomimg {
+    text-align: center;
+    transform: rotate(180deg);
 }
 div.schedule {
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 div.schedule p {
     font-family: 'Averia Serif Libre';
@@ -69,6 +84,8 @@ div.container {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: stretch;
     align-content: stretch;
+    margin-top: 250px;
+    margin-bottom: 175px;
 }
 div.container p {
     font-family: 'Averia Serif Libre';
@@ -163,12 +180,12 @@ button.linkButton {
 button.linkButton:hover {
     color: rgba(203, 133, 137, 1);
  }
-div.giftList {
+div.gifts {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     text-align: center;
-    margin-bottom: 500px;
-    margin-top: 250px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -177,6 +194,9 @@ div.contactInfo {
     grid: 1fr, 1fr / 1fr, 1fr;
     padding: 20px;
     margin-bottom: 30px;
+    align-content: stretch;
+    justify-content: stretch;
+    text-align: center;
 }
 div.title {
     grid-column-start: 1;
@@ -205,7 +225,7 @@ div.contactInfo span {
     font-size: 1.25em;
     font-weight: bold; 
 }
-div.topButton {
+.topButton {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */

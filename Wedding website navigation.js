@@ -1,44 +1,44 @@
 //navigation
-var elmnt = document.getElementById("schedule");
+var schedule = document.getElementById("schedule");
 
 function scrollToSchedule() {
-  elmnt.scrollIntoView(true); 
+  schedule.scrollIntoView(true); 
 }
 
-var elmnt = document.getElementById("venue");
+var venue = document.getElementById("venue");
 
 function scrollToVenue() {
-  elmnt.scrollIntoView(true); 
+  venue.scrollIntoView(true); 
 }
 
-var elmnt = document.getElementById("hotel");
+var hotel = document.getElementById("hotel");
 
 function scrollToHotel() {
-  elmnt.scrollIntoView(true); 
+  hotel.scrollIntoView(true); 
 }
 
-var elmnt = document.getElementById("travel");
+var travel = document.getElementById("travel");
 
 function scrollToTravel() {
-  elmnt.scrollIntoView(true); 
+  travel.scrollIntoView(true); 
 }
 
-var elmnt = document.getElementById("tourism");
+var tourism = document.getElementById("tourism");
 
 function scrollToTourism() {
-  elmnt.scrollIntoView(true); 
+  tourism.scrollIntoView(true); 
 }
 
-var elmnt = document.getElementById("giftList");
+var gifts = document.getElementById("gifts");
 
-function scrollToGiftList() {
-  elmnt.scrollIntoView(true); 
+function scrollToGifts() {
+  gifts.scrollIntoView(true); 
 }
 
-var elmnt = document.getElementById("contactInfo");
+var contactInfo = document.getElementById("contactInfo");
 
 function scrollToContactInfo() {
-  elmnt.scrollIntoView(true); 
+  contactInfo.scrollIntoView(true); 
 }
 
 //Get the button:
