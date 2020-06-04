@@ -76,7 +76,7 @@ div.schedule {
 }
 div.schedule p {
     font-family: 'Averia Serif Libre';
-    font-size: 1em;
+    font-size: 1.5em;
 }
 div.container {
     display: grid;
@@ -97,16 +97,16 @@ div.container p {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: rgba(215, 179, 168, 1);
+    background-color: rgba(248, 237, 222, 1);
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-right: 50px;
 }
 .venue-right-half {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-image: url("pink geometric.jpg");
+    background-image: url(linen\ lattice.jpg);
     text-align: center;
     vertical-align: middle;
 }
@@ -115,7 +115,7 @@ div.container p {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-image: url("yellow mosaic.jpg");
+    background-image: url("champagne\ arabic.jpg");
     text-align: center;
     vertical-align: middle;
 }
@@ -126,23 +126,23 @@ div.container p {
     grid-row-end: 3;
     background-color: rgba(240, 207, 161, 1);
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-right: 50px;
 }
 .travel-left-half {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color: rgba(188, 197, 168, 1);
+    background-color: rgba(215, 179, 168, 1);
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-right: 50px;
 }
 .travel-right-half {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-image: url("Green lattice.jpg");
+    background-image: url("pink\ mosaic.jpg");
     text-align: center;
     vertical-align: middle;
 }
@@ -151,7 +151,7 @@ div.container p {
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
-    background-image: url("pink arabic.jpg");
+    background-image: url("green\ stars.jpg");
     text-align: center;
     vertical-align: middle;
 }
@@ -160,9 +160,9 @@ div.container p {
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-    background-color: rgba(203, 133, 137, 1);
+    background-color: rgba(188, 197, 168, 1);
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-right: 50px;
 }
 button.linkButton {
     padding: 1.5em, 1.5em, 1.5em, 1.5em;
