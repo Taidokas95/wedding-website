@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@0;1&family=Fredericka+the+Great&family=KoHo:ital@0;1&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wedding website.css">
+    <title>Hannah's & Anthony's wedding</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <button class="navbutton" onclick="scrollToSchedule()">Schedule</button>
+            <button class="navbutton" onclick="scrollToVenue()">Venue</button>
+            <button class="navbutton" onclick="scrollToHotel()">Hotel</button>
+            <button class="navbutton" onclick="scrollToTravel()">Travel</button>
+            <button class="navbutton" onclick="scrollToTourism()">To do in Stockholm</button>
+            <button class="navbutton" onclick="scrollToGifts()">Gifts</button>
+            <button class="navbutton" onclick="scrollToContactInfo()">Contact Info</button>
+        </nav>
+    </div>
+    <div class="header">
+        <h1>Save the date!</h1><br>
+        <h2>26/06/2021</h2><br>
+        <h1>Hannah & Anthony</h1>
+    </div>
+    <div class="bottomimg">
+        <img src="abstract divider.png" alt="abstract divider">
+    </div>
+    <div class="schedule" id="schedule">
+        <h1>Schedule</h1>
+        <h3>Friday</h3>
+        <p>Arrival <br>
+            African evening
+        </p>
+        <h3>Saturday</h3>
+        <p>Breakfast <br>
+            Ceremony <br>
+            Lunch <br>
+            Reception
+        </p>
+        <h3>Sunday</h3>
+        <p>Breakfast <br>
+            Departure
+        </p>
+    </div>
+    <div class="img">
+        <img src="abstract divider.png" alt="abstract divider">
+    </div>
+    <div class="container">
+        <div class="venue-left-half" class="venue-text" id="venue">
+            <h4>Venue</h4><br>
+            <p>We have chosen to hold the wedding at Siggesta Gård. The venue is in traditional swedish rural style with all the comforts of modern life. Expect to spend some time outside and bring clothing suitable for swedish summer weather (a mix of warm sunny days and chilly rain showers). Siggesta gård is located on Värmdö in the Stockholm archipelago and can be reached with public transport. To read more about the venue please click the button on the right. </p>
+        </div>
+        <div class="venue-right-half" class="venue-pic" id="venue">
+            <button class="linkButton" onclick="window.location.href = 'https://siggestagard.se/fest-brollop/';">The venue</button>
+        </div><br>
+        <div class="hotel-left-half" class="hotel-pic" id="hotel">
+            <button class="linkButton" onclick="window.location.href = 'https://siggestagard.se/en/accomodation/';">Book accomodation</button>
+        </div>
+        <div class="hotel-right-half" class="hotel-text">
+            <h4>Hotel</h4><br>
+            <p>Accomodation will be sorted through Siggesta Gård. There are 39 rooms with 89 beds on Siggesta Gård itself, and they work with several hotels close by to help us find accomodation for all of our guests. We have asked them to hold rooms for all of you but we would appreciate you getting back to us whether you plan on booking a room or not. Please feel free to contact us if you have any questions. 
+
+            To book a room click on the button to the left.
+            </p>
+        </div><br>
+        <div class="travel-left-half" class="travel-text" id="travel">
+            <h4>Travel</h4><br>
+            <p>For those of you flying in from abroad the closest airport is Stockholm Arlanda. From Arlanda you can easily get into central Stockholm by taxi or Arlanda Express. Travelling within Stockholm is easliy done by public transport, or if you prefer, by taxi. To learn more about Stockholms public transport youll find all the information you need by clicking the button to the right.</p>
+        </div>
+        <div class="travel-right-half" class="travel-pic">
+            <button class="linkButton" onclick="window.location.href = 'https://sl.se/en/';">Public transport</button>
+            <button class="linkButton" onclick="window.location.href = 'https://www.arlandaexpress.com/?lang';">Arlanda Express</button>
+        </div><br>
+        <div class="tourism-left-half" class="tourism-pic" id="tourism">
+            <button class="linkButton" onclick="window.location.href = 'https://www.visitstockholm.com/';">What to do in Stockholm</button>
+        </div>
+        <div class="tourism-right-half" class="tourism-text">
+            <h4>To do in Stockholm</h4>
+            <p>Welcome to Stockholm, the Venice of the north! First time visiting? There is a lot to see and do in Stockholm. If you want to make the best of your stay planning is key. The button to the left will take you to a website listing suggestions of what to do in Stockholm. Having a hard time to choose? We will gladly give recommendations on what to prioritise.</p>
+        </div><br>
+    </div>
+    <div class="bottomimg">
+        <img src="abstract divider.png" alt="abstract divider">
+    </div>
+    <div class="gifts" id="gifts">
+        <h1>Gifts</h1>
+            <p>If you would like to give us a gift on our special day we would especially appreciate donations towards our honeymoon trip. Anything to symbolise our love or help us in our life together is also much appreciated. But most of all we would love to enjoy your presence at our wedding.</p>
+    </div>
+    <div class="img">
+        <img src="abstract divider.png" alt="abstract divider">
+    </div>
+    <div class="contactInfo" id="contactInfo">
+        <div class="title">
+            <h5>Contact Info</h5><br>
+        </div>
+        <div class="hk">
+            <p><span>Hannah Kanjah</span><br>hannah.kanjah@gmail.com<br>+46707879746<br></p>
+        </div>
+        <div class="ab">
+            <p><span>Anthony Bassey</span><br>a.bassey@live.co.uk<br>+447866809014<br></p>
+        </div>        
+    </div>
+    <button class="topButton" id="myBtn" onclick="topFunction()">Top</button>
+    <script src="Wedding website navigation.js"></script>
+</body>
+</html>
