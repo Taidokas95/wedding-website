@@ -35,6 +35,11 @@ function scrollToGifts() {
   gifts.scrollIntoView(true); 
 }
 
+var schedule = document.getElementById("RSVP");
+
+function scrollToRSVP() {
+  RSVP.scrollIntoView(true); 
+}
 var contactInfo = document.getElementById("contactInfo");
 
 function scrollToContactInfo() {
