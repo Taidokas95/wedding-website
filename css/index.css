@@ -23,7 +23,7 @@ h4 {
     font-size: 3.25em;
 }
 h5 {
-    font-family: 'KoHo';
+    font-family: 'Averia Serif Libre';
     font-size: 2em;
     font-weight: bold;
 }
@@ -31,15 +31,17 @@ ul {
     justify-content: center;
 }
 div.navbar {
-    display: grid;
-    grid: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
-    column-gap: 30px;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 auto;
+    justify-content: space-evenly;
     align-content: center;
+    align-items: baseline;
 }
 button.navbutton {
     padding: 10px;
-    margin: 2em;
+    margin: auto;
     background-color: #FAFBF8;
     border: none;
     text-align: center;
@@ -225,11 +227,11 @@ div.ab {
     grid-row-end: 3;
 }
 div.contactInfo p {
-    font-family: 'KoHo', sans-serif;
+    font-family: 'Averia Serif Libre';
     font-size: 1em;
 }
 div.contactInfo span {
-    font-family: 'KoHo', sans-serif;
+    font-family: 'Averia Serif Libre';
     font-size: 1.25em;
     font-weight: bold; 
 }
