@@ -108,7 +108,7 @@ div.container p {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-image: url("/images/linen-lattice.jpg");
+    background-image: url('linen-lattice.jpg');
     text-align: center;
     vertical-align: middle;
 }
@@ -117,7 +117,7 @@ div.container p {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-image: url("/images/champagne-arabic.jpg");
+    background-image: url('champagne-arabic.jpg');
     text-align: center;
     vertical-align: middle;
 }
@@ -144,7 +144,7 @@ div.container p {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-image: url("/images/pink-mosaic.jpg");
+    background-image: url('pink-mosaic.jpg');
     text-align: center;
     vertical-align: middle;
 }
@@ -153,7 +153,7 @@ div.container p {
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
-    background-image: url("/images/green-stars.jpg");
+    background-image: url('green-stars.jpg');
     text-align: center;
     vertical-align: middle;
 }
@@ -270,18 +270,6 @@ color7: rgba(219, 178, 60, 1); gold
 color8: rgba(240, 207, 161, 1); deep champagne
 color9: rgba(248, 237, 222, 1); linen
 color10: rgba(250, 251, 248, 1); baby powder */
-
-/* HEX
-color1: #1f1110ff; xiketic 
-color2: #04243fff; oxford blue
-color3: #24592cff; hunter green
-color4: #bcc5a8ff; laurel green
-color5: #cb8589ff; old rose
-color6: #d7b3a8ff; silver pink
-color7: #dbb23cff; gold
-color8: #f0cfa1ff; deep champagne
-color9: #f8eddeff; linen
-color10: #fafbf8ff; baby powder */
 
 /* Font styling
 font-family: 'Averia Serif Libre', cursive;
