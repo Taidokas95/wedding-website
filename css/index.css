@@ -56,13 +56,13 @@ button.navbutton:hover {
 div.header {
     align-content: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 130px;
     margin-bottom: 250px;
 }
 img {
     height: auto;
-    width: 50%;
     min-width: 320px;
+    width: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -73,7 +73,7 @@ div.bottomimg {
 div.schedule {
     text-align: center;
     margin-top: 75px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 div.schedule p {
     font-family: 'Averia Serif Libre';
@@ -97,6 +97,7 @@ div.schedule p {
         background-color: rgba(248, 237, 222, 1);
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 50px;
     }
     .venue-right-half {
         display: flex;
@@ -130,6 +131,7 @@ div.schedule p {
         background-color: rgba(240, 207, 161, 1);
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 50px;
     }
     .travel-left-half {
         grid-column-start: 1;
@@ -139,6 +141,7 @@ div.schedule p {
         background-color: rgba(215, 179, 168, 1);
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 50px;
     }
     .travel-right-half {
         display: flex;
@@ -173,6 +176,7 @@ div.schedule p {
         background-color: rgba(188, 197, 168, 1);
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 50px;
     }
 }
 @media all and (min-width: 680px) {
@@ -296,18 +300,18 @@ div.gifts {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     text-align: center;
-    margin-top: 75px;
+    margin: auto;
+    margin-top: 50px;
     margin-bottom: 75px;
-    margin-left: 25%;
-    margin-right: 25%;
+
 }
 div.RSVP {
     display: flex;
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 150px;
+    margin-bottom: 25px;
 }
 div.contactInfo {
     display: grid;
