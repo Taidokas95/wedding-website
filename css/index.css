@@ -1,5 +1,4 @@
 body {
-    height: 1vh;
     width: auto;
     background-color: rgba(250, 251, 248, 1);
 }
@@ -60,15 +59,15 @@ div.header {
     margin-top: 25px;
     margin-bottom: 250px;
 }
-div.img {
-    text-align: center;
-}
 img {
     height: auto;
-    width: 550px;
+    width: 50%;
+    min-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 div.bottomimg {
-    text-align: center;
     transform: rotate(180deg);
 }
 div.schedule {
@@ -80,104 +79,215 @@ div.schedule p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
 }
-div.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-content: stretch;
-    align-content: stretch;
-    margin-top: 250px;
-    margin-bottom: 175px;
+@media all and (min-width: 320px) {
+    div.container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.35fr 1fr 0.35fr 1fr 0.35fr 1fr 0.35fr;
+        justify-content: stretch;
+        align-content: stretch;
+        margin-top: 250px;
+        margin-bottom: 175px;
+    }
+    .venue-left-half {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: rgba(248, 237, 222, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .venue-right-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('linen-lattice.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .hotel-left-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('champagne-arabic.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .hotel-right-half {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: rgba(240, 207, 161, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .travel-left-half {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-color: rgba(215, 179, 168, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .travel-right-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        background-image: url('pink-mosaic.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .tourism-left-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        background-image: url('green-stars.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .tourism-right-half {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        background-color: rgba(188, 197, 168, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media all and (min-width: 680px) {
+    div.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-content: stretch;
+        align-content: stretch;
+        margin-top: 250px;
+        margin-bottom: 175px;
+    }
+    .venue-left-half {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: rgba(248, 237, 222, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .venue-right-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url('linen-lattice.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .hotel-left-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('champagne-arabic.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .hotel-right-half {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: rgba(240, 207, 161, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .travel-left-half {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: rgba(215, 179, 168, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .travel-right-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('pink-mosaic.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .tourism-left-half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('green-stars.jpg');
+        text-align: center;
+        vertical-align: middle;
+    }
+    .tourism-right-half {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-color: rgba(188, 197, 168, 1);
+        padding-left: 50px;
+        padding-right: 50px;
+    }   
 }
 div.container p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     font-style: italic;
 }
-.venue-left-half {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background-color: rgba(248, 237, 222, 1);
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.venue-right-half {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background-image: url('linen-lattice.jpg');
-    text-align: center;
-    vertical-align: middle;
-}
-.hotel-left-half {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-image: url('champagne-arabic.jpg');
-    text-align: center;
-    vertical-align: middle;
-}
-.hotel-right-half {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: rgba(240, 207, 161, 1);
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.travel-left-half {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-color: rgba(215, 179, 168, 1);
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.travel-right-half {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-image: url('pink-mosaic.jpg');
-    text-align: center;
-    vertical-align: middle;
-}
-.tourism-left-half {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    background-image: url('green-stars.jpg');
-    text-align: center;
-    vertical-align: middle;
-}
-.tourism-right-half {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    background-color: rgba(188, 197, 168, 1);
-    padding-left: 50px;
-    padding-right: 50px;
-}
 button.linkButton {
     padding: 1.5em, 1.5em, 1.5em, 1.5em;
     background-color: #FAFBF8;
-    border: none;
+    border: 0.5px;
+    border-color: rgba(4, 36, 63, 0.2);
+    border-style: solid;
     border-radius: 10px;
     text-align: center;
     color: rgba(31, 17, 16, 1);
     font-family: 'Fredericka the Great';
     font-size: 1.5em;
     cursor: pointer;
-    margin-top: 25%;
-    margin-bottom: 25%;
+    display: block;
 }
 button.linkButton:hover {
     color: rgba(203, 133, 137, 1);
