@@ -6,25 +6,36 @@ h1 {
     font-family: 'Monsieur La Doulaise';
     font-size: 6.5em;
     text-align: center;
+    color: rgba(31, 17, 16, 1);
 }
 h2 {
     font-family: 'Averia Serif Libre';
     font-size: 2.75em;
     font-weight: bold;
     text-align: center;
+    color: rgba(31, 17, 16, 1);
 }
 h3 {
     font-family: 'Averia Serif Libre';
     font-size: 3em;
+    color: rgba(31, 17, 16, 1);
 }
 h4 {
     font-family: 'Averia Serif Libre';
     font-size: 3.25em;
+    color: rgba(31, 17, 16, 1);
 }
 h5 {
     font-family: 'Averia Serif Libre';
     font-size: 2em;
     font-weight: bold;
+    color: rgba(31, 17, 16, 1);
+}
+h6 {
+    font-family: 'Fredericka the Great';
+    font-size: 3.5em;
+    font-weight: 400;
+    color: rgba(31, 17, 16, 1);
 }
 ul {
     justify-content: center;
@@ -300,10 +311,20 @@ div.gifts {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 75px;
-
+}
+div.rsvpinfo {
+    font-family: 'Averia Serif Libre';
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    margin-top: 250px;
 }
 div.RSVP {
     display: flex;
