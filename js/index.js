@@ -46,6 +46,7 @@ function scrollToContactInfo() {
   contactInfo.scrollIntoView(true); 
 }
 
+//back to top button
 //Get the button:
 mybutton = document.getElementById("myBtn");
 

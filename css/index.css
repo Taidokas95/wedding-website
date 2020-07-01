@@ -31,12 +31,6 @@ h5 {
     font-weight: bold;
     color: rgba(31, 17, 16, 1);
 }
-h6 {
-    font-family: 'Fredericka the Great';
-    font-size: 3.5em;
-    font-weight: 400;
-    color: rgba(31, 17, 16, 1);
-}
 ul {
     justify-content: center;
 }
@@ -48,6 +42,18 @@ div.navbar {
     justify-content: space-evenly;
     align-content: center;
     align-items: baseline;
+    background-color: rgba(250, 251, 248, 1);
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+div.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky .content {
+    padding-top: 60px;
 }
 button.navbutton {
     padding: 10px;
@@ -89,6 +95,7 @@ div.schedule {
 div.schedule p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
+    color: rgba(31, 17, 16, 1);
 }
 @media all and (min-width: 320px) {
     div.container {
@@ -289,6 +296,7 @@ div.container p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     font-style: italic;
+    color: rgba(31, 17, 16, 1);
 }
 button.linkButton {
     padding: 1.5em, 1.5em, 1.5em, 1.5em;
@@ -311,6 +319,7 @@ div.gifts {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     text-align: center;
+    color: rgba(31, 17, 16, 1);
     padding-left: 15%;
     padding-right: 15%;
     margin: auto;
@@ -321,27 +330,28 @@ div.rsvpinfo {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     text-align: center;
+    color: rgba(31, 17, 16, 1);
     padding-left: 15%;
     padding-right: 15%;
-    margin: auto;
-    margin-top: 250px;
+    margin-top: 350px;
+    margin-bottom: 100px;
 }
 div.RSVP {
     display: flex;
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin-top: 150px;
     margin-bottom: 25px;
 }
 div.contactInfo {
     display: grid;
     grid: 1fr, 1fr / 1fr, 1fr;
     padding: 20px;
-    margin-bottom: 30px;
+    padding-bottom: 100px;
     align-content: stretch;
     justify-content: stretch;
     text-align: center;
+    background-color: rgba(203, 133, 137, 1);
 }
 div.title {
     grid-column-start: 1;
@@ -364,11 +374,13 @@ div.ab {
 div.contactInfo p {
     font-family: 'Averia Serif Libre';
     font-size: 1em;
+    color: rgba(31, 17, 16, 1);
 }
 div.contactInfo span {
     font-family: 'Averia Serif Libre';
     font-size: 1.25em;
     font-weight: bold; 
+    color: rgba(31, 17, 16, 1);
 }
 .topButton {
     display: none; /* Hidden by default */
