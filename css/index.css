@@ -6,30 +6,30 @@ h1 {
     font-family: 'Monsieur La Doulaise';
     font-size: 6.5em;
     text-align: center;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
 }
 h2 {
     font-family: 'Averia Serif Libre';
     font-size: 2.75em;
     font-weight: bold;
     text-align: center;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
 }
 h3 {
     font-family: 'Averia Serif Libre';
     font-size: 3em;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
 }
 h4 {
     font-family: 'Averia Serif Libre';
     font-size: 3.25em;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
 }
 h5 {
     font-family: 'Averia Serif Libre';
     font-size: 2em;
     font-weight: bold;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
 }
 ul {
     justify-content: center;
@@ -61,7 +61,7 @@ button.navbutton {
     background-color: #FAFBF8;
     border: none;
     text-align: center;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
     font-family: 'Fredericka the Great';
     font-size: 20px;
     cursor: pointer;
@@ -95,7 +95,7 @@ div.schedule {
 div.schedule p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(4, 36, 63, 1);
 }
 @media all and (min-width: 320px) {
     div.container {
@@ -319,7 +319,7 @@ div.gifts {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     text-align: center;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
     padding-left: 15%;
     padding-right: 15%;
     margin: auto;
@@ -330,7 +330,7 @@ div.rsvpinfo {
     font-family: 'Averia Serif Libre';
     font-size: 1.5em;
     text-align: center;
-    color: rgba(31, 17, 16, 1);
+    color: rgba(0, 10, 119);
     padding-left: 15%;
     padding-right: 15%;
     margin-top: 350px;
@@ -408,7 +408,7 @@ div.contactInfo span {
 
 /* RGB 
 color1: rgba(31, 17, 16, 1); xiketic 
-color2: rgba(4, 36, 63, 1); oxford blue
+color2: rgba(4, 36, 63, 1); prussian blue
 color3: rgba(36, 89, 44, 1); hunter green
 color4: rgba(188, 197, 168, 1); laurel green
 color5: rgba(203, 133, 137, 1); old rose
@@ -416,7 +416,8 @@ color6: rgba(215, 179, 168, 1); silver pink
 color7: rgba(219, 178, 60, 1); gold
 color8: rgba(240, 207, 161, 1); deep champagne
 color9: rgba(248, 237, 222, 1); linen
-color10: rgba(250, 251, 248, 1); baby powder */
+color10: rgba(250, 251, 248, 1); baby powder
+colour11: rgba(0, 10, 119); navy blue */
 
 /* Font styling
 font-family: 'Averia Serif Libre', cursive;
