@@ -23,13 +23,13 @@ h3 {
 h4 {
     font-family: 'Averia Serif Libre';
     font-size: 3.25em;
-    color: rgba(0, 10, 119);
+    color: rgba(31, 17, 16, 1);
 }
 h5 {
     font-family: 'Averia Serif Libre';
     font-size: 2em;
     font-weight: bold;
-    color: rgba(0, 10, 119);
+    color: rgba(31, 17, 16, 1);
 }
 ul {
     justify-content: center;
