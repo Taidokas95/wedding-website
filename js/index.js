@@ -1,4 +1,9 @@
 //navigation
+var about = document.getElementById("about");
+
+function scrollToAbout() {
+  about.scrollIntoView(true); 
+
 var schedule = document.getElementById("schedule");
 
 function scrollToSchedule() {
