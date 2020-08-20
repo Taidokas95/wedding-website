@@ -4,20 +4,20 @@ body {
 }
 h1 {
     font-family: 'Monsieur La Doulaise';
-    font-size: 6.5em;
+    font-size: 7rem;
     text-align: center;
     color: rgba(0, 10, 119);
 }
 h2 {
     font-family: 'Averia Serif Libre';
-    font-size: 2.75em;
+    font-size: 2.75rem;
     font-weight: bold;
     text-align: center;
     color: rgba(0, 10, 119);
 }
 h3 {
     font-family: 'Averia Serif Libre';
-    font-size: 3em;
+    font-size: 3rem;
     color: rgba(0, 10, 119);
 }
 h4 {
@@ -27,9 +27,12 @@ h4 {
 }
 h5 {
     font-family: 'Averia Serif Libre';
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     color: rgba(31, 17, 16, 1);
+}
+p {
+    line-height: 1.5;
 }
 ul {
     justify-content: center;
@@ -59,7 +62,7 @@ button.navbutton {
     padding: 10px;
     margin: auto;
     background-color: #FAFBF8;
-    border: none;
+    border: hidden;
     text-align: center;
     color: rgba(0, 10, 119);
     font-family: 'Fredericka the Great';
@@ -79,7 +82,7 @@ div.header {
 img {
     height: auto;
     min-width: 320px;
-    width: 35%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -88,18 +91,30 @@ div.bottomimg {
     transform: rotate(180deg);
 }
 div.about {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border-width: 10px 0px 10px 0px;
+    border-color: rgba(219, 178, 60, 1);
+    border-style: double;
+}
+div.about p {
+    font-family: 'Averia Serif Libre';
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 75px;
-    margin-bottom: 50px;
+    color: rgba(0, 10, 119);
 }
 div.schedule {
     text-align: center;
-    margin-top: 75px;
     margin-bottom: 50px;
 }
 div.schedule p {
     font-family: 'Averia Serif Libre';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: rgba(4, 36, 63, 1);
 }
 @media all and (min-width: 320px) {
@@ -108,13 +123,14 @@ div.schedule p {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.35fr 1fr 0.35fr 1fr 0.35fr 1fr 0.35fr;
         row-gap: 20px;
+        column-gap: 15px;
         justify-content: stretch;
         align-content: stretch;
         margin-top: 250px;
-        margin-bottom: 175px;
+        margin-bottom: 150px;
     }
     .box {
-        box-shadow:rgba(31, 17, 16, 0.356);
+        box-shadow: 5px 10px 15px 3px rgba(31, 17, 16, 0.1);
     }
     .venue-left-half {
         grid-column-start: 1;
@@ -212,13 +228,14 @@ div.schedule p {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         row-gap: 20px;
+        column-gap: 15px;
         justify-content: stretch;
         align-content: stretch;
         margin-top: 250px;
-        margin-bottom: 175px;
+        margin-bottom: 150px;
     }
     .box {
-        box-shadow: 5px 10px 15px rgba(31, 17, 16, 0.1);
+        box-shadow: 5px 10px 15px 3px rgba(31, 17, 16, 0.1);
     }
     .venue-left-half {
         grid-column-start: 1;
@@ -307,7 +324,7 @@ div.schedule p {
 }
 div.container p {
     font-family: 'Averia Serif Libre';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-style: italic;
     color: rgba(31, 17, 16, 1);
 }
@@ -321,7 +338,7 @@ button.linkButton {
     text-align: center;
     color: rgba(31, 17, 16, 1);
     font-family: 'Fredericka the Great';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     cursor: pointer;
     display: block;
 }
@@ -329,32 +346,45 @@ button.linkButton:hover {
     color: rgba(203, 133, 137, 1);
  }
 div.gifts {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5em;
-    text-align: center;
-    color: rgba(0, 10, 119);
     padding-left: 15%;
     padding-right: 15%;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
-div.rsvpinfo {
+div.gifts p {
     font-family: 'Averia Serif Libre';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: center;
     color: rgba(0, 10, 119);
+}
+div.rsvpinfo {
     padding-left: 15%;
     padding-right: 15%;
     margin-top: 350px;
     margin-bottom: 100px;
+    border-width: 10px 0px 0px 0px;
+    border-color: rgba(219, 178, 60, 1);
+    border-style: double;
+}
+div.rsvpinfo h3 {
+    text-align: center;
+    font-size: 7rem;  
+    font-weight: 400;
+}
+div.rsvpinfo p {
+    font-family: 'Averia Serif Libre';
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgba(0, 10, 119);
 }
 div.RSVP {
     display: flex;
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 25px;
+    border-width: 0px 0px 10px 0px;
+    border-color: rgba(219, 178, 60, 1);
+    border-style: double;
 }
 div.contactInfo {
     display: grid;
@@ -386,12 +416,12 @@ div.ab {
 }
 div.contactInfo p {
     font-family: 'Averia Serif Libre';
-    font-size: 1em;
+    font-size: 1rem;
     color: rgba(31, 17, 16, 1);
 }
 div.contactInfo span {
     font-family: 'Averia Serif Libre';
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold; 
     color: rgba(31, 17, 16, 1);
 }
@@ -409,15 +439,13 @@ div.contactInfo span {
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
     font-family: 'Fredericka the Great';
-    font-size: 1em;
+    font-size: 1rem;
     text-align: center;
-  }
-  
+} 
 .topButton:hover {
     background-color:rgba(250, 251, 248, 1);
-  }
+}
 
 /* RGB 
 color1: rgba(31, 17, 16, 1); xiketic 
