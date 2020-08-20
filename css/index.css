@@ -107,10 +107,14 @@ div.schedule p {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.35fr 1fr 0.35fr 1fr 0.35fr 1fr 0.35fr;
+        row-gap: 20px;
         justify-content: stretch;
         align-content: stretch;
         margin-top: 250px;
         margin-bottom: 175px;
+    }
+    .box {
+        box-shadow:rgba(31, 17, 16, 0.356);
     }
     .venue-left-half {
         grid-column-start: 1;
@@ -207,10 +211,14 @@ div.schedule p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 20px;
         justify-content: stretch;
         align-content: stretch;
         margin-top: 250px;
         margin-bottom: 175px;
+    }
+    .box {
+        box-shadow: 5px 10px 15px rgba(31, 17, 16, 0.1);
     }
     .venue-left-half {
         grid-column-start: 1;
