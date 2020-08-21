@@ -34,7 +34,7 @@ function scrollToGifts() {
   gifts.scrollIntoView(true); 
 }
 
-var schedule = document.getElementById("RSVP");
+var RSVP = document.getElementById("RSVP");
 function scrollToRSVP() {
   RSVP.scrollIntoView(true); 
 }
