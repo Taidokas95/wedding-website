@@ -34,6 +34,21 @@ h5 {
 p {
     line-height: 1.5;
 }
+a:link {
+    color: rgba(203, 133, 137, 1);
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: rgba(188, 197, 168, 1);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:rgba(203, 133, 137, 1);
+    background-color: transparent;
+    text-decoration: underline;
+}
 ul {
     justify-content: center;
 }
