@@ -127,8 +127,21 @@ div.about p {
 div.schedule {
     text-align: center;
     margin-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 div.schedule p {
+    font-family: 'Averia Serif Libre';
+    font-size: 1.5rem;
+    color: rgba(4, 36, 63, 1);
+}
+div.dress-code {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+div.dress-code p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5rem;
     color: rgba(4, 36, 63, 1);
