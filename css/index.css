@@ -95,13 +95,6 @@ div.header {
     margin-top: 130px;
     margin-bottom: 250px;
 }
-div.header p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5rem;
-    text-align: center;
-    color: rgba(0, 10, 119);
-    font-weight: bold;   
-}
 img {
     height: auto;
     min-width: 320px;
