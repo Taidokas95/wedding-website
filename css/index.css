@@ -89,6 +89,17 @@ button.navbutton {
 button.navbutton:hover {
    color: rgba(0, 10, 119);
 }
+div.important {
+    font-family: 'Averia Serif Libre';
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgba(0, 10, 119);
+    font-weight: bold;    
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 div.header {
     align-content: center;
     justify-content: center;
