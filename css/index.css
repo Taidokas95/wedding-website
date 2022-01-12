@@ -65,6 +65,7 @@ div.navbar {
     top: 0; 
     width: 100%;
     box-shadow: 0px 10px 10px 2px rgba(250, 251, 248, 1);
+    margin-bottom: 75px;
 }
 div.sticky {
     position: fixed;
@@ -92,8 +93,14 @@ button.navbutton:hover {
 div.header {
     align-content: center;
     justify-content: center;
-    margin-top: 130px;
-    margin-bottom: 250px;
+    height: 100vh;
+    width: 100vmax;
+    margin-top: 50px;
+    background-image: url('../images/HannahandAnthony_YoungandWild_BröllopStadshuset_83.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 1px 1px 5px rgba(250, 251, 248, 1);
 }
 img {
     height: auto;
@@ -109,8 +116,6 @@ div.bottomimg {
 div.about {
     padding-left: 15%;
     padding-right: 15%;
-    margin: auto;
-    margin-top: 200px;
     margin-bottom: 200px;
     padding-top: 70px;
     padding-bottom: 100px;
@@ -133,7 +138,7 @@ div.schedule {
 div.schedule p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5rem;
-    color: rgba(4, 36, 63, 1);
+    color: rgba(0, 10, 119);
 }
 div.dress-code {
     text-align: center;
@@ -144,7 +149,7 @@ div.dress-code {
 div.dress-code p {
     font-family: 'Averia Serif Libre';
     font-size: 1.5rem;
-    color: rgba(4, 36, 63, 1);
+    color: rgba(0, 10, 119);
 }
 @media all and (min-width: 320px) {
     div.container {
