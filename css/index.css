@@ -33,8 +33,8 @@ div.navbar {
     position: fixed; 
     top: 0; 
     width: 100%;
-    box-shadow: 0px 10px 10px 2px rgba(250, 251, 248, 1);
-    margin-bottom: 75px;
+  
+    margin-bottom: 3em;
 }
 div.sticky {
     position: fixed;
@@ -52,7 +52,7 @@ button.navbutton {
     text-align: center;
     color: rgba(203, 133, 137, 1);
     font-family: 'Fredericka the Great';
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -62,7 +62,8 @@ button.navbutton:hover {
 div.header {
     align-content: center;
     justify-content: center;
-    padding-top: 4em;
+    margin-top: 3em;
+    padding-top: 3em;
     background-image: url('../images/HannahandAnthony_YoungandWild_BröllopStadshuset_83.jpg');
     background-size: cover;
     background-position: center center;
@@ -108,38 +109,41 @@ div.dress-code {
 @media all and (min-width: 320px) {
     h1 {
         font-family: 'Monsieur La Doulaise';
-        font-size: 5vw;
+        font-size: 8vw;
         text-align: center;
         color: rgba(0, 10, 119);
     }
     h2 {
         font-family: 'Averia Serif Libre';
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: bold;
         text-align: center;
         color: rgba(0, 10, 119);
     }
     h3 {
         font-family: 'Averia Serif Libre';
-        font-size: 3vw;
+        font-size: 4vw;
         color: rgba(0, 10, 119);
     }
     h4 {
         font-family: 'Averia Serif Libre';
-        font-size: 3vw;
+        font-size: 4vw;
         color: rgba(31, 17, 16, 1);
     }
     h5 {
         font-family: 'Averia Serif Libre';
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: bold;
         color: rgba(31, 17, 16, 1);
     }
     p {
         font-family: 'Averia Serif Libre';
-        font-size: 2vw;
+        font-size: 3vw;
         line-height: 1.5;
         color: rgba(0, 10, 119);
+    }
+    button.navbutton {
+        font-size: 2vw;
     }
     div.container {
         display: grid;
@@ -248,31 +252,31 @@ div.dress-code {
         padding-bottom: 50px;
     }
     button.linkButton {
-        font-size: 2vw;
+        font-size: 3vw;
     } 
 }
 @media all and (min-width: 680px) {
     h1 {
         font-family: 'Monsieur La Doulaise';
-        font-size: 6vw;
+        font-size: 5vw;
         text-align: center;
         color: rgba(0, 10, 119);
     }
     h2 {
         font-family: 'Averia Serif Libre';
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: bold;
         text-align: center;
         color: rgba(0, 10, 119);
     }
     h3 {
         font-family: 'Averia Serif Libre';
-        font-size: 3.5vw;
+        font-size: 2vw;
         color: rgba(0, 10, 119);
     }
     h4 {
         font-family: 'Averia Serif Libre';
-        font-size: 3.5vw;
+        font-size: 2vw;
         color: rgba(31, 17, 16, 1);
     }
     h5 {
@@ -286,6 +290,9 @@ div.dress-code {
         font-size: 1.5vw;
         line-height: 1.5;
         color: rgba(0, 10, 119);
+    }
+    button.navbutton {
+        font-size: 1.5vw;
     }
     div.container {
         display: grid;
@@ -386,7 +393,7 @@ div.dress-code {
         padding-right: 50px;
     }  
     button.linkButton {
-        font-size: 3vw;
+        font-size: 1.5vw;
     } 
 }
 div.container p {
