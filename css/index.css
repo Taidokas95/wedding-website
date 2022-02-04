@@ -2,38 +2,7 @@ body {
     width: auto;
     background-color: rgba(250, 251, 248, 1);
 }
-h1 {
-    font-family: 'Monsieur La Doulaise';
-    font-size: 7rem;
-    text-align: center;
-    color: rgba(0, 10, 119);
-}
-h2 {
-    font-family: 'Averia Serif Libre';
-    font-size: 2.75rem;
-    font-weight: bold;
-    text-align: center;
-    color: rgba(0, 10, 119);
-}
-h3 {
-    font-family: 'Averia Serif Libre';
-    font-size: 3rem;
-    color: rgba(0, 10, 119);
-}
-h4 {
-    font-family: 'Averia Serif Libre';
-    font-size: 3.25em;
-    color: rgba(31, 17, 16, 1);
-}
-h5 {
-    font-family: 'Averia Serif Libre';
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgba(31, 17, 16, 1);
-}
-p {
-    line-height: 1.5;
-}
+
 a:link {
     color: rgba(203, 133, 137, 1);
     background-color: transparent;
@@ -83,7 +52,7 @@ button.navbutton {
     text-align: center;
     color: rgba(203, 133, 137, 1);
     font-family: 'Fredericka the Great';
-    font-size: 20px;
+    font-size: 1.5vw;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -93,14 +62,15 @@ button.navbutton:hover {
 div.header {
     align-content: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vmax;
-    margin-top: 50px;
+    padding-top: 4em;
     background-image: url('../images/HannahandAnthony_YoungandWild_BröllopStadshuset_83.jpg');
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-position: center;
     text-shadow: 1px 1px 5px rgba(250, 251, 248, 1);
+    border-width: 0px 0px 10px 0px;
+    border-color: rgba(219, 178, 60, 1);
+    border-style: double;
 }
 img {
     height: auto;
@@ -116,42 +86,61 @@ div.bottomimg {
 div.about {
     padding-left: 15%;
     padding-right: 15%;
-    margin-bottom: 200px;
-    padding-top: 70px;
-    padding-bottom: 100px;
-    border-width: 10px 0px 10px 0px;
-    border-color: rgba(219, 178, 60, 1);
-    border-style: double;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 3em;
 }
 div.about p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5rem;
     text-align: center;
-    color: rgba(0, 10, 119);
 }
 div.schedule {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3em;
     padding-left: 15%;
     padding-right: 15%;
-}
-div.schedule p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5rem;
-    color: rgba(0, 10, 119);
 }
 div.dress-code {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3em;
     padding-left: 15%;
     padding-right: 15%;
 }
-div.dress-code p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5rem;
-    color: rgba(0, 10, 119);
-}
 @media all and (min-width: 320px) {
+    h1 {
+        font-family: 'Monsieur La Doulaise';
+        font-size: 5vw;
+        text-align: center;
+        color: rgba(0, 10, 119);
+    }
+    h2 {
+        font-family: 'Averia Serif Libre';
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(0, 10, 119);
+    }
+    h3 {
+        font-family: 'Averia Serif Libre';
+        font-size: 3vw;
+        color: rgba(0, 10, 119);
+    }
+    h4 {
+        font-family: 'Averia Serif Libre';
+        font-size: 3vw;
+        color: rgba(31, 17, 16, 1);
+    }
+    h5 {
+        font-family: 'Averia Serif Libre';
+        font-size: 2vw;
+        font-weight: bold;
+        color: rgba(31, 17, 16, 1);
+    }
+    p {
+        font-family: 'Averia Serif Libre';
+        font-size: 2vw;
+        line-height: 1.5;
+        color: rgba(0, 10, 119);
+    }
     div.container {
         display: grid;
         grid-template-columns: 1fr;
@@ -160,8 +149,7 @@ div.dress-code p {
         column-gap: 15px;
         justify-content: stretch;
         align-content: stretch;
-        margin-top: 250px;
-        margin-bottom: 150px;
+        margin-top: 2em;
     }
     .box {
         box-shadow: 5px 10px 15px 3px rgba(31, 17, 16, 0.1);
@@ -187,6 +175,7 @@ div.dress-code p {
         background-image: url('linen-lattice.jpg');
         text-align: center;
         vertical-align: middle;
+        min-height: 25vh;
     }
     .hotel-left-half {
         display: flex;
@@ -199,6 +188,7 @@ div.dress-code p {
         background-image: url('champagne-arabic.jpg');
         text-align: center;
         vertical-align: middle;
+        min-height: 25vh;
     }
     .hotel-right-half {
         grid-column-start: 1;
@@ -232,6 +222,7 @@ div.dress-code p {
         background-image: url('pink-mosaic.jpg');
         text-align: center;
         vertical-align: middle;
+        min-height: 25vh;
     }
     .tourism-left-half {
         display: flex;
@@ -244,6 +235,7 @@ div.dress-code p {
         background-image: url('green-stars.jpg');
         text-align: center;
         vertical-align: middle;
+        min-height: 25vh;
     }
     .tourism-right-half {
         grid-column-start: 1;
@@ -255,8 +247,46 @@ div.dress-code p {
         padding-right: 50px;
         padding-bottom: 50px;
     }
+    button.linkButton {
+        font-size: 2vw;
+    } 
 }
 @media all and (min-width: 680px) {
+    h1 {
+        font-family: 'Monsieur La Doulaise';
+        font-size: 6vw;
+        text-align: center;
+        color: rgba(0, 10, 119);
+    }
+    h2 {
+        font-family: 'Averia Serif Libre';
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(0, 10, 119);
+    }
+    h3 {
+        font-family: 'Averia Serif Libre';
+        font-size: 3.5vw;
+        color: rgba(0, 10, 119);
+    }
+    h4 {
+        font-family: 'Averia Serif Libre';
+        font-size: 3.5vw;
+        color: rgba(31, 17, 16, 1);
+    }
+    h5 {
+        font-family: 'Averia Serif Libre';
+        font-size: 2vw;
+        font-weight: bold;
+        color: rgba(31, 17, 16, 1);
+    }
+    p {
+        font-family: 'Averia Serif Libre';
+        font-size: 1.5vw;
+        line-height: 1.5;
+        color: rgba(0, 10, 119);
+    }
     div.container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -265,8 +295,8 @@ div.dress-code p {
         column-gap: 15px;
         justify-content: stretch;
         align-content: stretch;
-        margin-top: 250px;
-        margin-bottom: 150px;
+        margin-top: 2em;
+        margin-bottom: 1em;
     }
     .box {
         box-shadow: 5px 10px 15px 3px rgba(31, 17, 16, 0.1);
@@ -354,11 +384,12 @@ div.dress-code p {
         background-color: rgba(188, 197, 168, 1);
         padding-left: 50px;
         padding-right: 50px;
-    }   
+    }  
+    button.linkButton {
+        font-size: 3vw;
+    } 
 }
 div.container p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5rem;
     font-style: italic;
     color: rgba(31, 17, 16, 1);
 }
@@ -372,7 +403,6 @@ button.linkButton {
     text-align: center;
     color: rgba(31, 17, 16, 1);
     font-family: 'Fredericka the Great';
-    font-size: 1.5rem;
     cursor: pointer;
     display: block;
 }
@@ -382,34 +412,24 @@ button.linkButton:hover {
 div.gifts {
     padding-left: 15%;
     padding-right: 15%;
-    margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 div.gifts p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5rem;
     text-align: center;
-    color: rgba(0, 10, 119);
 }
 div.rsvpinfo {
     padding-left: 15%;
     padding-right: 15%;
-    margin-top: 350px;
-    margin-bottom: 100px;
-    border-width: 10px 0px 0px 0px;
-    border-color: rgba(219, 178, 60, 1);
-    border-style: double;
+    margin-top: 8em;
+    margin-bottom: 2em;
 }
 div.rsvpinfo h3 {
-    text-align: center;
-    font-size: 5rem;  
+    text-align: center; 
     font-weight: 400;
 }
 div.rsvpinfo p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.5rem;
     text-align: center;
-    color: rgba(0, 10, 119);
 }
 div.RSVP {
     display: flex;
@@ -423,8 +443,7 @@ div.RSVP {
 div.contactInfo {
     display: grid;
     grid: 1fr, 1fr / 1fr, 1fr;
-    padding: 20px;
-    padding-bottom: 100px;
+    padding: 2em;
     align-content: stretch;
     justify-content: stretch;
     text-align: center;
@@ -449,13 +468,9 @@ div.ab {
     grid-row-end: 3;
 }
 div.contactInfo p {
-    font-family: 'Averia Serif Libre';
-    font-size: 1rem;
     color: rgba(31, 17, 16, 1);
 }
 div.contactInfo span {
-    font-family: 'Averia Serif Libre';
-    font-size: 1.25rem;
     font-weight: bold; 
     color: rgba(31, 17, 16, 1);
 }
