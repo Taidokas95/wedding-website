@@ -69,7 +69,7 @@ div.header {
     background-position: center center;
     background-repeat: no-repeat;
     text-shadow: 1px 1px 5px rgba(250, 251, 248, 1);
-    border-width: 0px 0px 10px 0px;
+    border-width: 10px 0px 10px 0px;
     border-color: rgba(219, 178, 60, 1);
     border-style: double;
 }
@@ -80,6 +80,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 div.bottomimg {
     transform: rotate(180deg);
@@ -450,7 +452,7 @@ div.RSVP {
 div.contactInfo {
     display: grid;
     grid: 1fr, 1fr / 1fr, 1fr;
-    padding: 2em;
+    padding: 1em;
     align-content: stretch;
     justify-content: stretch;
     text-align: center;
